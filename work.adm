@@ -1,0 +1,27 @@
+ Alize-Lcpc - Design of pavement structures 
+   according to the French Lcpc-Setra rational method 
+ 
+ Computation of Allowable value -  material: bituminous 
+ traffic data : 
+	 MJA = 2325 lorries/direction/lane 
+	 arithmetic growth= 3,00%
+	 service duration= 15,0 years 
+	 cumulated trafic NPL = 15 403 000 heavy lorries 
+ other equivalent traffic data (inferred) : 
+	 geometric growth= 2,67%
+ equivalent cumulated trafic NE: 
+	 coefficient CAM= 0,45
+	 cumul. traffic NE= 6 931 400 reference axles 
+ material characteristics: 
+	 Epsilon6= 90,00 µstrain 
+	 inverse slope 1/b= -5,00
+	 modulus E(10°C) = 12300 MPa 
+	 modulus E(TetaEq)= 6300 MPa 
+	 standard deviation Sh= 0,025 m 
+	 standard deviation SN= 0,300
+	 risk= 12,0%
+	 coefficient Kr= 0,8100
+	 coefficient Ks= 1/1,1
+	 coefficient Kc= 1,1
+ Allowable EpsilonT= 69,2 µstrain 
+ 

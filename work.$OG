@@ -1,0 +1,130 @@
+
+
+  B E G I N   I N P U T   P H A S E                                            
+                                                                               
+  PROCESSING SYSTEM DATA                                                       
+                                                                               
+  PROCESSING JOINT DATA                                                        
+                                                                               
+  PROCESSING PATTERN DATA                                                      
+                                                                               
+  PROCESSING RESTRAINT DATA                                                    
+                                                                               
+  PROCESSING MATERIAL PROPERTY DATA                                            
+                                                                               
+  PROCESSING SHELL SECTION PROPERTY DATA                                       
+                                                                               
+  PROCESSING SHELL ELEMENT DATA                                                
+                                                                               
+  PROCESSING LOAD DATA                                                         
+                                                                               
+       PROCESSING SHELL LOAD DATA                                              
+                                                                               
+  PROCESSING MODES DATA                                                        
+                                                                               
+  PROCESSING COMBINATION DATA                                                  
+                                                                               
+  PROCESSING OUTPUT DATA                                                       
+                                                                               
+                                                                               
+  I N P U T   C O M P L E T E                                                  
+                                                                                
+                                                                                
+ B E G I N   A N A L Y S I S   P H A S E                    2020/11/12  12:01:39
+                                                                                
+                                                                                
+ J O I N T   E L E M E N T   F O R M A T I O N                          12:01:39
+
+
++NUMBER OF  JOINT ELEMENTS FORMED          =           0                        
+
++NUMBER OF SPRING ELEMENTS FORMED          =           0                        
+                                                                                
+                                                                                
+ S H E L L   E L E M E N T   F O R M A T I O N                          12:01:39
+
+                                                                                
++ Shell element     100 of     864                                              
++ Shell element     200 of     864                                              
++ Shell element     300 of     864                                              
++ Shell element     400 of     864                                              
++ Shell element     500 of     864                                              
++ Shell element     600 of     864                                              
++ Shell element     700 of     864                                              
++ Shell element     800 of     864                                              
++ Shell element     864 of     864                                              
++NUMBER OF  SHELL ELEMENTS FORMED          =         864                        
+                                                                                
+                                                                                
+ E Q U A T I O N   S O L U T I O N                                      12:01:39
+                                                                                
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        5649                        
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =          87                        
+                                                                                
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1                        
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =      496299                        
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =       3.808 MB                     
+                                                                                
+ NUMBER OF EQUATIONS TO SOLVE              =        5649                        
+ NUMBER OF STATIC LOAD CASES               =          10                        
+ NUMBER OF ACCELERATION LOADS              =           3                        
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0                        
+                                                                                
+                                                                                
+ E I G E N   A N A L Y S I S                                            12:01:40
+                                                                                
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        5649                        
+ NUMBER OF MASS DEGREES OF FREEDOM         =        2802                        
+ NUMBER OF EIGEN MODES SOUGHT              =           6                        
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0                        
+ NUMBER OF SUBSPACE VECTORS USED           =          10                        
+                                                                                
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-05                        
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000                        
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =     .000000                        
+
+ Found mode       1 of       6, Eigenvalue = 4.5492842E+02, Period =    0.294583
+ Found mode       2 of       6, Eigenvalue = 8.3150716E+02, Period =    0.217895
+ Found mode       3 of       6, Eigenvalue = 1.4972517E+03, Period =    0.162380
+ Found mode       4 of       6, Eigenvalue = 1.8859282E+03, Period =    0.144683
+ Found mode       5 of       6, Eigenvalue = 2.4027841E+03, Period =    0.128181
+ Found mode       6 of       6, Eigenvalue = 3.0142055E+03, Period =    0.114444
+                                                                                
+ NUMBER OF EIGEN MODES FOUND               =           6                        
+ NUMBER OF ITERATIONS PERFORMED            =           6                        
+                                                                                
+                                                                                
+ J O I N T   O U T P U T                                                12:01:40
+                                                                                
+                                                                                
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    12:01:40
+
+                                                                                
++ Shell element     100 of     864                                              
++ Shell element     200 of     864                                              
++ Shell element     300 of     864                                              
++ Shell element     400 of     864                                              
++ Shell element     500 of     864                                              
++ Shell element     600 of     864                                              
++ Shell element     700 of     864                                              
++ Shell element     800 of     864                                              
++ Shell element     864 of     864                                              
++NUMBER OF  SHELL ELEMENTS SAVED           =         864                        
+                                                                                
+                                                                                
+ S H E L L   E L E M E N T   O U T P U T                                12:01:41
+
+                                                                                
++ Shell element     100 of     864                                              
++ Shell element     200 of     864                                              
++ Shell element     300 of     864                                              
++ Shell element     400 of     864                                              
++ Shell element     500 of     864                                              
++ Shell element     600 of     864                                              
++ Shell element     700 of     864                                              
++ Shell element     800 of     864                                              
++ Shell element     864 of     864                                              
++NUMBER OF  SHELL ELEMENTS SAVED           =         864                        
+                                                                                
+                                                                                
+ A N A L Y S I S   C O M P L E T E                          2020/11/12  12:01:41

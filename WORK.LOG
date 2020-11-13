@@ -1,0 +1,106 @@
+ Program SAP2000 Nonlinear Version 7.11                            File:WORK.LOG
+                                                                     
+                                                                       
+
+
+ B E G I N   A N A L Y S I S   P H A S E                    2020/11/12  12:01:39
+
+ MEMORY AVAILABLE FOR DATA (BYTES)         =     4000000
+
+
+ J O I N T   E L E M E N T   F O R M A T I O N                          12:01:39
+
+ NUMBER OF  JOINT ELEMENTS FORMED          =           0
+ NUMBER OF SPRING ELEMENTS FORMED          =           0
+
+
+ S H E L L   E L E M E N T   F O R M A T I O N                          12:01:39
+
+ NUMBER OF  SHELL ELEMENTS FORMED          =         864
+
+
+ E Q U A T I O N   S O L U T I O N                                      12:01:39
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        5649
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =          87
+
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =      496299
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =       3.808 MB
+
+ NUMBER OF EQUATIONS TO SOLVE              =        5649
+ NUMBER OF STATIC LOAD CASES               =          10
+ NUMBER OF ACCELERATION LOADS              =           3
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0
+
+
+ E I G E N   A N A L Y S I S                                            12:01:40
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        5649
+ NUMBER OF MASS DEGREES OF FREEDOM         =        2802
+ NUMBER OF EIGEN MODES SOUGHT              =           6
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          10
+
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-05
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =     .000000
+
+ NUMBER OF EIGEN MODES FOUND               =           6
+ NUMBER OF ITERATIONS PERFORMED            =           6
+
+
+ J O I N T   O U T P U T                                                12:01:40
+
+ G L O B A L   F O R C E   B A L A N C E   R E L A T I V E   E R R O R S
+
+ PERCENT FORCE AND MOMENT ERROR AT THE ORIGIN, IN GLOBAL COORDINATES
+
+    LOAD          FX          FY          FZ          MX          MY          MZ
+   LOAD1     .000000     .000000    5.19E-11    6.22E-13    3.14E-13     .000000
+  ALCAS1     .000000     .000000    5.32E-11    5.02E-13    4.58E-12     .000000
+  ALCAS2     .000000     .000000    5.30E-11    7.15E-13    3.80E-12     .000000
+  ALCAS3     .000000     .000000    5.38E-11    6.17E-13    4.22E-13     .000000
+  ALCAS4     .000000     .000000    5.32E-11    5.02E-13    4.58E-12     .000000
+  ALCAS5     .000000     .000000    5.16E-11    5.87E-13    1.35E-11     .000000
+  ALCAS6     .000000     .000000    5.23E-11    5.07E-13    4.98E-12     .000000
+  ALCAS7     .000000     .000000    5.11E-11    6.51E-13    1.27E-11     .000000
+  ALCAS8     .000000     .000000    5.19E-11    6.22E-13    3.14E-13     .000000
+  ALCAS9     .000000     .000000    5.19E-11    6.22E-13    3.14E-13     .000000
+
+    MODE          FX          FY          FZ          MX          MY          MZ
+       1    3.75E-05    0.000621    0.000269    8.22E-05    0.000204    0.000357
+       2    8.81E-05    0.001596    0.003578    0.000124    0.004681    0.000713
+       3    3.81E-05    0.000180    0.000279    1.05E-07    0.001597    9.80E-05
+       4    0.000126    0.001010    0.000794    0.000174    0.000379    5.57E-05
+       5   22.230414   78.534589   18.296476   21.251578   82.888912   57.748208
+       6    0.063599    0.001137    0.012071    0.003346    0.028421    0.012653
+
+ COMB MAX/MIN     FX          FY          FZ          MX          MY          MZ
+COMB1ELU     .000000     .000000    5.27E-11    5.52E-13    2.80E-12     .000000
+COMB1ELU     .000000     .000000    5.27E-11    5.52E-13    2.80E-12     .000000
+COMB2ELU     .000000     .000000    5.25E-11    6.76E-13    2.08E-12     .000000
+COMB2ELU     .000000     .000000    5.25E-11    6.76E-13    2.08E-12     .000000
+COMB3ELU     .000000     .000000    5.30E-11    6.19E-13    3.78E-13     .000000
+COMB3ELU     .000000     .000000    5.30E-11    6.19E-13    3.78E-13     .000000
+COMB4ELU     .000000     .000000    5.27E-11    5.52E-13    2.80E-12     .000000
+COMB4ELU     .000000     .000000    5.27E-11    5.52E-13    2.80E-12     .000000
+COMB5ELU     .000000     .000000    5.17E-11    6.02E-13    7.69E-12     .000000
+COMB5ELU     .000000     .000000    5.17E-11    6.02E-13    7.69E-12     .000000
+COMB6ELU     .000000     .000000    5.21E-11    5.54E-13    2.83E-12     .000000
+COMB6ELU     .000000     .000000    5.21E-11    5.54E-13    2.83E-12     .000000
+COMB7ELU     .000000     .000000    5.15E-11    6.39E-13    7.46E-12     .000000
+COMB7ELU     .000000     .000000    5.15E-11    6.39E-13    7.46E-12     .000000
+
+
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    12:01:40
+
+ NUMBER OF  SHELL ELEMENTS SAVED           =         864
+
+
+ S H E L L   E L E M E N T   O U T P U T                                12:01:41
+
+ NUMBER OF  SHELL ELEMENTS SAVED           =         864
+
+
+ A N A L Y S I S   C O M P L E T E                          2020/11/12  12:01:41
